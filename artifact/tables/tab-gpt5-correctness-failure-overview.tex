@@ -1,0 +1,20 @@
+%WARNING: auto-generated. Edit generate_gpt5_correctness_failure_table.py instead.
+\begin{table}[h]
+  \centering
+  \caption{Number of runs affected by validation failures. ``Validation failures'' are attempts that produced tests but failed later validation. ``T0'' and ``T1'' refer to the agent experiments at temperature 0.0 and 1.0, respectively.}
+  \label{tab:gpt5-correctness-failure-overview}
+  \small
+  \begin{tabular}{lrrr}
+  \toprule
+  \textbf{System} &
+  \textbf{No passing tests} &
+  \textbf{Validation failures} &
+  \textbf{Total affected} \\
+  \midrule
+TestPilot-500 & 1/20 (5.0\%) & 4/20 (20.0\%) & 5/20 (25.0\%) \\
+TestPilot-1000 & 0/20 (0.0\%) & 6/20 (30.0\%) & 6/20 (30.0\%) \\
+Agent full+residual T1 & 3/40 (7.5\%) & 1/40 (2.5\%) & 4/40 (10.0\%) \\
+Agent full+residual T0 & 0/20 (0.0\%) & 0/20 (0.0\%) & 0/20 (0.0\%) \\
+  \bottomrule
+  \end{tabular}
+\end{table}

@@ -1,0 +1,16 @@
+{
+  "dataset": "gpt-5.4-agent-hidden/1",
+  "createdFrom": "agentic-stryker/runs/full/hidden-remaining-gpt54-dryrun-repair-20260522",
+  "splices": [
+    {
+      "libraryId": "fs-extra",
+      "source": "agentic-stryker/runs/canary/hidden-fs-extra-dryrun-repair",
+      "reason": "hidden-remaining suite had 20 libraries and was missing fs-extra"
+    }
+  ],
+  "qSelection": {
+    "kept": "agentic-stryker/runs/full/hidden-remaining-gpt54-dryrun-repair-20260522/q",
+    "reason": "this is the latest hidden q report found by mtime; standalone hidden-q canaries are older",
+    "latestStandaloneSuccessful": "agentic-stryker/runs/canary/hidden-q-dryrun-repair-4/q"
+  }
+}

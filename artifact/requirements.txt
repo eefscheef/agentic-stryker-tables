@@ -1,0 +1,7 @@
+cliffs_delta
+matplotlib>=3.7.1
+numpy>=1.24.0
+pandas
+seaborn>=0.11.1
+num2words>=0.5.12
+scipy

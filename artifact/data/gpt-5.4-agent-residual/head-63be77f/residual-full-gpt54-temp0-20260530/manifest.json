@@ -1,0 +1,34 @@
+{
+    "label": "temperature-0 full+residual run at HEAD, dry-run repair on",
+    "sourceRun": "agentic-stryker/runs/temp/residual-full-gpt54-temp0-20260530",
+    "suiteRunId": "46198ae3-c3fd-4fdb-9985-7946fc65ca0a",
+    "agentGitSha": "63be77f97661975c07c4f2ee50ff3d872dc5d376",
+    "provider": "openai",
+    "model": "gpt-5.4",
+    "temperature": 0,
+    "conditionFlags": {
+        "mutationFeedback": "full",
+        "strykerDryRunRepair": "on",
+        "residualMutationFeedback": true,
+        "residualMutationMaxItems": 5,
+        "loopTelemetry": "summary"
+    },
+    "startedAt": "2026-05-30T21:50:25.435Z",
+    "librarySet": "default suite (25 attempted, 4 hard-skipped: bluebird, js-sdsl, memfs, rsvp)",
+    "summary": {
+        "total": 25,
+        "completed": 21,
+        "partialBenchmark": 0,
+        "failedSetup": 0,
+        "failedBenchmark": 0,
+        "skipped": 4
+    },
+    "libraryNotes": {},
+    "provenance": {
+        "note": "Vendored 2026-07-03 from the sibling agentic-stryker checkout so the artifact no longer depends on it. Path fields in suite-report.json were rewritten to the ${RUN_ROOT} placeholder; run contents are otherwise byte-identical to the source run.",
+        "consumers": [
+            "generate_gpt5_agent_temperature_table.py (temperature-0 columns)",
+            "generate_gpt5_agent_nontriviality.py (T0 row; also via generate_gpt5_correctness_failure_table.py)"
+        ]
+    }
+}

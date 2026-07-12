@@ -1,0 +1,45 @@
+{
+  "label": "residual-mutation-feedback full run, dry-run repair on, q row spliced",
+  "sourceRun": "agentic-stryker/runs/full/residual-21-gpt54-safe-cwd-omnitool-q-20260505",
+  "suiteRunId": "2903b75b-1bf2-40be-b1ff-24c1119e9e76",
+  "agentGitSha": "cacfda3223111f0545be201275e573c15be177ba",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "temperature": 1,
+  "conditionFlags": {
+    "mutationFeedback": "full",
+    "strykerDryRunRepair": "on",
+    "residualMutationFeedback": true,
+    "residualMutationMaxItems": 5,
+    "loopTelemetry": "summary"
+  },
+  "startedAt": "2026-05-05T18:22:30.982Z",
+  "librarySet": "default suite (25 attempted, 4 hard-skipped: bluebird, js-sdsl, memfs, rsvp)",
+  "summary": {
+    "total": 25,
+    "completed": 20,
+    "partialBenchmark": 1,
+    "failedSetup": 0,
+    "failedBenchmark": 0,
+    "skipped": 4,
+    "note": "Post-splice. Pre-splice was {completed: 19, partialBenchmark: 2}."
+  },
+  "libraryNotes": {
+    "q": "Spliced from agentic-stryker/runs/repair-runs/q-dry-run-repair-on-safe-cwd-fix/ at agentGitSha 64a6a9224b290823097a67f2bd2e7e61e7da6f82. Conditions match (mutationFeedback=full, strykerDryRunRepair=on, residual feedback enabled). Differences from Run 2 sha cacfda3: only fix(benchmark): narrow omnitool suite scope, which does not affect q. Original Run 2 q was partial_benchmark with no aggregate Stryker score; the spliced q is completed with aggregate mutation score 68.90% (1032 valid mutants, 711 detected, 321 survived).",
+    "crawler-url-parser": "partial_benchmark — pre-residual aggregate failed; no Stryker score.",
+    "omnitool": "completed at suite level but aggregate Stryker dry-run failed (pre-residual succeeded at 77.78). No post-residual score."
+  },
+  "provenance": {
+    "supportFiles": [
+      "_payloads/<lib>.json (q.json comes from the q patch run)",
+      "suite-report.json (q row updated to point at the spliced report)"
+    ],
+    "splice": {
+      "library": "q",
+      "from": "agentic-stryker/runs/repair-runs/q-dry-run-repair-on-safe-cwd-fix/q",
+      "fromSuiteRunId": "0d21d538-0cd1-40c8-8980-5061de8f2b8d",
+      "fromAgentGitSha": "64a6a9224b290823097a67f2bd2e7e61e7da6f82",
+      "fromStartedAt": "2026-05-05T17:21:58.890Z"
+    }
+  }
+}

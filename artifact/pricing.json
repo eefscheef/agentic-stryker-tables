@@ -1,0 +1,17 @@
+{
+  "_comment": "Per-1M-token rates in USD used by generate_gpt5_agent_residual_table.py. gpt-5.4 is a project-internal model alias; rates below are placeholders modeled on OpenAI's published gpt-5 family pricing (late 2025). Verify against your billing dashboard before publishing the cost column.",
+  "model": "gpt-5.4",
+  "currency": "USD",
+  "rates_per_million_tokens": {
+    "input": 1.25,
+    "cached_input": 0.125,
+    "output": 10.00,
+    "reasoning": 10.00
+  },
+  "notes": {
+    "input": "Charged on the non-cached portion of agentRun.llm.inputTokens (= inputTokens - cacheReadInputTokens).",
+    "cached_input": "Charged on agentRun.llm.cacheReadInputTokens. Non-zero in these runs because the agent uses split-static-prefix prompt caching.",
+    "output": "Charged on agentRun.llm.outputTokens.",
+    "reasoning": "Charged on agentRun.llm.reasoningTokens. Currently 0 for OpenAI in this run set; included for forward compatibility with reasoning models."
+  }
+}

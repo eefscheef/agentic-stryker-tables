@@ -1,0 +1,40 @@
+%WARNING: auto-generated. Edit generate_gpt5_agent_testpilot_comparison_table.py instead.
+\begin{table*}[!htb]
+\centering
+\caption{Per-library mutation score, statement and branch coverage, and generation cost for the two GPT-5.4 \textsc{TestPilot} budgets and the final GPT-5.4 agent. \emph{Mut}, \emph{Stmt}, and \emph{Br} are mutation score and statement and branch coverage in percent. \emph{Cost} is the USD generation cost for that library. Failing to generate any passing tests counts 0.0\% mutation score. Agent values are means over the two temperature 1 runs, and the agent mutation score is the final (post-residual) score.}
+\label{tab:gpt5-agent-testpilot-per-library}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l rrrr rrrr rrrr}
+\toprule
+\multirow{2}{*}{\textbf{Project}} & \multicolumn{4}{c}{\textbf{TestPilot-500}} & \multicolumn{4}{c}{\textbf{TestPilot-1000}} & \multicolumn{4}{c}{\textbf{Agent}} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(lr){10-13}
+ & \textbf{Mut} & \textbf{Stmt} & \textbf{Br} & \textbf{Cost} & \textbf{Mut} & \textbf{Stmt} & \textbf{Br} & \textbf{Cost} & \textbf{Mut} & \textbf{Stmt} & \textbf{Br} & \textbf{Cost} \\
+\midrule
+glob & 33.9 & 62.8 & 51.4 & \$1.45 & 44.4 & 76.0 & 67.5 & \$1.84 & 51.8 & 77.7 & 69.8 & \$0.70 \\
+graceful-fs & 26.7 & 56.7 & 41.7 & \$11.68 & 27.0 & 54.8 & 40.9 & \$13.15 & 96.8 & 60.8 & 51.5 & \$7.49 \\
+jsonfile & 68.9 & 85.1 & 73.5 & \$0.42 & 55.7 & 76.6 & 70.6 & \$0.35 & 92.6 & 98.9 & 92.6 & \$0.28 \\
+q & 55.3 & 80.5 & 63.5 & \$8.01 & 54.4 & 80.6 & 63.1 & \$7.91 & 65.9 & 86.7 & 75.6 & \$2.61 \\
+node-dir & 60.9 & 78.9 & 67.3 & \$1.51 & 67.1 & 82.7 & 73.5 & \$1.79 & 72.8 & 84.1 & 75.8 & \$0.63 \\
+zip-a-folder & 95.8 & 100.0 & 100.0 & \$0.19 & 95.8 & 100.0 & 100.0 & \$0.21 & 100.0 & 100.0 & 100.0 & \$0.07 \\
+\midrule
+quill-delta & 76.9 & 88.9 & 83.6 & \$3.41 & 78.3 & 91.4 & 86.4 & \$3.55 & 68.1 & 75.6 & 71.3 & \$1.19 \\
+complex.js & 63.9 & 86.0 & 66.9 & \$3.85 & 61.1 & 84.5 & 66.2 & \$3.83 & 78.5 & 94.4 & 80.7 & \$4.04 \\
+pull-stream & 69.8 & 86.0 & 71.5 & \$1.91 & 73.4 & 88.9 & 74.3 & \$2.09 & 82.7 & 90.1 & 82.9 & \$0.95 \\
+countries-and-timezones & 16.4 & 99.0 & 85.1 & \$0.59 & 16.6 & 99.0 & 87.2 & \$0.63 & 11.4 & 71.6 & 55.2 & \$0.82 \\
+simple-statistics & 76.6 & 90.3 & 87.9 & \$8.41 & 76.7 & 91.7 & 88.2 & \$8.44 & 70.3 & 84.2 & 79.4 & \$2.40 \\
+plural & 26.4 & 78.5 & 68.2 & \$0.26 & 34.3 & 81.5 & 77.3 & \$0.27 & 84.5 & 98.5 & 95.5 & \$0.29 \\
+dirty & 69.4 & 85.8 & 78.8 & \$3.15 & 69.4 & 84.9 & 76.9 & \$3.63 & 56.6 & 68.4 & 61.5 & \$0.34 \\
+geo-point & 74.4 & 96.3 & 88.2 & \$1.56 & 80.5 & 100.0 & 97.0 & \$1.65 & 78.2 & 96.0 & 82.8 & \$0.60 \\
+uneval & 89.8 & 100.0 & 95.8 & \$0.11 & 89.8 & 100.0 & 95.8 & \$0.13 & 0.0 & 0.0 & 0.0 & \$0.07 \\
+\midrule
+image-downloader & 0.0 & 0.0 & 0.0 & \$0.10 & 51.2 & 75.8 & 62.5 & \$0.18 & 96.5 & 100.0 & 96.9 & \$0.18 \\
+crawler-url-parser & 64.2 & 94.6 & 81.2 & \$0.54 & 68.6 & 94.6 & 85.0 & \$0.61 & 29.9 & 35.6 & 35.0 & \$0.20 \\
+gitlab-js & 9.5 & 59.6 & 22.5 & \$3.57 & 4.7 & 59.6 & 20.8 & \$3.44 & 31.0 & 60.9 & 37.2 & \$1.17 \\
+core & 51.5 & 88.1 & 72.7 & \$2.14 & 58.4 & 91.6 & 76.1 & \$2.15 & 82.1 & 96.5 & 94.3 & \$0.66 \\
+omnitool & 57.1 & 81.6 & 73.1 & \$19.24 & 58.7 & 83.0 & 76.2 & \$19.63 & 80.2 & 91.8 & 87.4 & \$7.66 \\
+\midrule
+\textbf{Mean} & 54.4 & 79.9 & 68.7 & \$3.60 & 58.3 & 84.9 & 74.3 & \$3.77 & 66.5 & 78.6 & 71.3 & \$1.62 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

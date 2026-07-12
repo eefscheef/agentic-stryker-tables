@@ -1,0 +1,45 @@
+# ── Whitelist .gitignore ────────────────────────────────────────────────────
+# This repo publishes a curated subset of a much larger working tree (the
+# extracted TestPilot figshare artifact + our run data). Everything is ignored
+# by default; the publish set is re-included explicitly below. The data itself
+# ships via the archive DOI, not git.
+
+*
+!*/
+
+# top-level (anchored: un-anchored patterns would match at every depth)
+!/.gitignore
+!/LICENSE
+!/README.md
+!/Makefile
+
+# thesis pipeline: consumed producers + shared modules + inputs
+!artifact/requirements.txt
+!artifact/pricing.json
+!artifact/generate_gpt5_*.py
+!artifact/generate_nontriviality_table.py
+!artifact/generate_classic_mutation_comparison_table.py
+!artifact/dumbbell_summary.py
+!artifact/analyze_residual_token_overhead.py
+
+# CodeQL pack (result CSVs are committed under tables/, so CodeQL is optional)
+!artifact/ql/**
+
+# generated outputs: thesis publish set + CSV intermediates
+!artifact/tables/tab-gpt5-*.tex
+!artifact/tables/tab-nontriviality-testpilot-vs-agent.tex
+!artifact/tables/tab-classic-mutation-comparison.tex
+!artifact/tables/*.csv
+!artifact/figures/gpt5_*.pdf
+!artifact/figures/gpt5_*.png
+
+# re-ignore generated outputs that are not part of the publish set
+artifact/tables/tab-gpt5-agent-nontriviality-summary.tex
+artifact/figures/gpt5_coverage_vs_mutation_scatter.pdf
+artifact/figures/gpt5_coverage_vs_mutation_scatter.png
+
+# per-run provenance manifests (committed; the data around them is not)
+!artifact/data/**/manifest.json
+
+# fetch script
+!/fetch-data.sh

@@ -1,0 +1,43 @@
+{
+    "label": "full+residual temperature-1 replicate 2 (of 2) at HEAD, dry-run repair on, explicit --temperature 1",
+    "sourceRun": "agentic-stryker/runs/full/residual-21-gpt54-temp1-rep2-20260530",
+    "suiteRunId": "e7088055-868f-486a-bbd9-33e541ad5b4e",
+    "agentGitSha": "63be77f97661975c07c4f2ee50ff3d872dc5d376",
+    "provider": "openai",
+    "model": "gpt-5.4",
+    "temperature": 1,
+    "conditionFlags": {
+        "mutationFeedback": "full",
+        "strykerDryRunRepair": "on",
+        "residualMutationFeedback": true,
+        "residualMutationMaxItems": 5,
+        "loopTelemetry": "summary"
+    },
+    "startedAt": "2026-05-29T17:43:48.534Z",
+    "endedAt": "2026-05-30T08:01:14.075Z",
+    "durationMs": 51445541,
+    "librarySet": "default suite (25 attempted, 4 hard-skipped: bluebird, js-sdsl, memfs, rsvp)",
+    "summary": {
+        "total": 25,
+        "completed": 20,
+        "partialBenchmark": 1,
+        "failedSetup": 0,
+        "failedBenchmark": 0,
+        "skipped": 4
+    },
+    "libraryNotes": {
+        "uneval": "no passing tests (single API item failed); scored 0.0%",
+        "graceful-fs": "completed cleanly; supplies the starred single-run graceful-fs cell values"
+    },
+    "provenance": {
+        "note": "Copied from the agentic-stryker checkout; path fields in suite-report.json use the ${RUN_ROOT} placeholder. Manifest added 2026-07-12 (schema follows the temp-0 run's manifest).",
+        "consumers": [
+            "generate_gpt5_agent_temperature_table.py (temperature-1 mean; residual-scores table + temperature CSV)",
+            "generate_gpt5_agent_testpilot_comparison_table.py (agent columns)",
+            "generate_gpt5_agent_residual_table.py (cost table)",
+            "generate_gpt5_correctness_failure_table.py",
+            "generate_gpt5_agent_nontriviality.py",
+            "generate_gpt5_agent_hidden_ablation_table.py (full-feedback side)"
+        ]
+    }
+}

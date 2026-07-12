@@ -1,0 +1,39 @@
+{
+  "label": "residual-mutation-feedback full run, no dry-run repair",
+  "sourceRun": "agentic-stryker/runs/full/residual-20-openai-gpt54-parallel1",
+  "suiteRunId": "8a24bb61-ea14-4605-9ec0-725bc8c2819b",
+  "agentGitSha": "7064a0c9cf861a0393476a18fa3353ec2fab715b",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "temperature": 1,
+  "conditionFlags": {
+    "mutationFeedback": "full",
+    "strykerDryRunRepair": null,
+    "residualMutationFeedback": true,
+    "residualMutationMaxItems": 5,
+    "loopTelemetry": "summary"
+  },
+  "cliInvocation": "pnpm run bench -- suite --outputDir runs/full/residual-20-openai-gpt54-parallel1 --libraries runs/full/residual-20-openai-gpt54-parallel1/libraries.compatible-minus-graceful-fs.json --provider openai --model gpt-5.4 --temperature 1 --mutation-feedback full --residual-mutation-feedback --residual-mutation-max-items 5 --loop-telemetry summary --parallel 1 --reuseImage false",
+  "startedAt": "2026-05-04T16:23:58.096Z",
+  "librarySet": "compatible-minus-graceful-fs (20 libraries)",
+  "summary": {
+    "total": 20,
+    "completed": 19,
+    "partialBenchmark": 0,
+    "failedSetup": 0,
+    "failedBenchmark": 1,
+    "skipped": 0
+  },
+  "libraryNotes": {
+    "q": "failed_benchmark — Stryker did not write mutation.json (exit 1). No aggregate score. A successful single-library rerun under the Run 2 condition exists at agentic-stryker/runs/repair-runs/q-dry-run-repair-on-safe-cwd-fix/ but is NOT spliced here; this run preserves the no-dry-run-repair condition.",
+    "fs-extra": "completed at suite level but 0/129 generated tests passed under benchmark mocha and no aggregate Stryker score was produced. Stream tests fail under aggregate dry-run (the dry-run-repair condition fixes this in Run 2)."
+  },
+  "provenance": {
+    "supportFiles": [
+      "host.log",
+      "libraries.compatible-minus-graceful-fs.json",
+      "residual-run-analysis.md",
+      "_payloads/<lib>.json"
+    ]
+  }
+}

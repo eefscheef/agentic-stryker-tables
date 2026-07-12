@@ -1,0 +1,30 @@
+{
+    "label": "pilot agent run (March 2026) -- pre per-item architecture; design-rationale evidence only",
+    "sourceRun": "pilot mutation-agent run, March 2026 (predates the agentic-stryker per-item loop)",
+    "agentGitSha": null,
+    "agentGitShaNote": "not recorded -- the pilot predates run provenance capture; it also predates the per-item loop, exploreAPI, code search, runTests, verdicts, and harness-enforced mutation scopes",
+    "provider": "openai",
+    "model": "gpt-5.4",
+    "conditionFlags": {
+        "architecture": "single whole-package conversation per library",
+        "toolSurface": "filesystem MCP + Stryker MCP only (strykerMutationTest, strykerMutantDetails)",
+        "strykerCallLimit": "at most 2 successful strykerMutationTest calls, enforced at prompt level only"
+    },
+    "startedAt": "2026-03-30T19:07:08.558Z",
+    "endedAt": "2026-03-31T18:58:14.703Z",
+    "librarySet": "21 retained libraries (of a broader 28-library attempt)",
+    "summary": {
+        "completed": 19,
+        "partial_benchmark": 2
+    },
+    "libraryNotes": {
+        "note": "8 of 21 libraries produced no passing generated tests; see the thesis pilot appendix for the failure categorisation (6 exploration failures, 1 mutation-feedback timeout, 1 harness test-discovery mismatch)"
+    },
+    "provenance": {
+        "note": "Manifest added 2026-07-12. This run backs ONLY the pilot appendix tables (A.1-A.3) and the Design Rationale chapter; it is historical design evidence, not a controlled experimental condition.",
+        "consumers": [
+            "generate_gpt5_comparison_tables.py (agent columns of tab-gpt5-mutation-comparison + tab-gpt5-agent-general-mutation-score)",
+            "generate_gpt5_token_table.py (agent columns of tab-gpt5-token-comparison)"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+%WARNING: auto-generated. Edit generate_gpt5_agent_residual_table.py instead.
+\begin{table*}[t!]
+\centering
+\caption{GPT-5.4 agent: token usage, cost, and generation time, averaged across the two residual-mutation-feedback runs. Cells marked \textsuperscript{*} come from a single run.}
+\label{tab:gpt5-agent-residual-cost}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{Project} & \textbf{Input} & \textbf{Cached} & \textbf{Output} & \textbf{Cost (USD)} & \textbf{Requests} & \textbf{Time (min)} \\
+\midrule
+glob & 1.26M & 1.13M & 40k & 0.70 & 127 & 11.2 \\
+graceful-fs & 15.51M & 13.71M & 353k & 7.49 & 1,404 & 150.0 \\
+jsonfile & 601k & 548k & 14k & 0.28 & 72 & 4.2 \\
+q & 5.65M & 5.11M & 130k & 2.61 & 680 & 47.6 \\
+node-dir & 1.14M & 1.04M & 36k & 0.63 & 109 & 11.7 \\
+zip-a-folder & 109k & 99k & 4k & 0.07 & 16 & 1.7 \\
+\midrule
+quill-delta & 2.47M & 2.24M & 62k & 1.19 & 291 & 22.3 \\
+complex.js & 9.38M & 8.45M & 181k & 4.04 & 946 & 156.5 \\
+pull-stream & 1.92M & 1.75M & 53k & 0.95 & 226 & 21.8 \\
+countries-and-timezones & 2.52M & 2.31M & 26k & 0.82 & 124 & 13.1 \\
+simple-statistics & 5.37M & 4.84M & 114k & 2.40 & 638 & 53.0 \\
+plural & 654k & 589k & 13k & 0.29 & 78 & 4.7 \\
+dirty & 628k & 568k & 19k & 0.34 & 64 & 5.5 \\
+geo-point & 1.21M & 1.09M & 31k & 0.60 & 140 & 8.8 \\
+uneval & 130k & 118k & 4k & 0.07 & 14 & 1.0 \\
+\midrule
+image-downloader & 370k & 338k & 10k & 0.18 & 40 & 3.0 \\
+crawler-url-parser & 425k & 388k & 10k & 0.20 & 44 & 3.1 \\
+gitlab-js & 2.68M & 2.42M & 54k & 1.17 & 318 & 18.7 \\
+core & 1.42M & 1.30M & 34k & 0.66 & 173 & 10.3 \\
+omnitool & 18.63M & 16.80M & 327k & 7.66 & 2,047 & 165.2 \\
+\midrule
+\textbf{Total} & 72.08M & 64.83M & 1.52M & 32.34 & 7,550 & 713.5 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

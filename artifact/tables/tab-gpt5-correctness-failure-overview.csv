@@ -1,0 +1,5 @@
+system,denominator,outright,later,total,outright_items,later_items,total_items
+TestPilot-500,20,1,4,5,image-downloader,fs-extra;graceful-fs;plural;dirty,dirty;fs-extra;graceful-fs;image-downloader;plural
+TestPilot-1000,20,0,6,6,,glob;fs-extra;graceful-fs;q;plural;dirty,dirty;fs-extra;glob;graceful-fs;plural;q
+Agent full+residual T1,40,3,1,4,R3:uneval;R3:crawler-url-parser;R4:uneval,R3:graceful-fs,R3:crawler-url-parser;R3:graceful-fs;R3:uneval;R4:uneval
+Agent full+residual T0,20,0,0,0,,,

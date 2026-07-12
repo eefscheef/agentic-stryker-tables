@@ -1,0 +1,44 @@
+%WARNING: auto-generated. Edit generate_gpt5_token_table.py instead.
+\begin{table*}[!htb]
+\centering
+\caption{Token usage for GPT-Turbo and GPT-5.4 running TestPilot's generation approach.
+  FUT is the number of exported functions under test.
+  GPT-Turbo values are estimated upper bounds (input tokens estimated as prompt length
+  divided by four; output tokens as the output token limit times number of completions).
+  GPT-5.4 values are actual counts from the API.}
+\label{tab:gpt5-testpilot-token-comparison}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l r r rr rr rr}
+\toprule
+& & & \multicolumn{2}{c}{\textbf{GPT-Turbo} (est.)} & \multicolumn{2}{c}{\textbf{GPT-5.4-500} (actual)} & \multicolumn{2}{c}{\textbf{GPT-5.4-1000} (actual)} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+\textbf{Project} & \textbf{LoC} & \textbf{FUT} & \textbf{Input} & \textbf{Output} & \textbf{Input} & \textbf{Output} & \textbf{Input} & \textbf{Output} \\
+\midrule
+glob & 314 & 21 & 13k & 36k & 42k & 139k & 59k & 177k \\
+graceful-fs & 208 & 187 & 61k & 194k & 308k & 1.129M & 340k & 1.273M \\
+jsonfile & 46 & 4 & 5k & 12k & 11k & 41k & 8k & 34k \\
+q & 736 & 98 & 100k & 225k & 224k & 773k & 426k & 738k \\
+node-dir & 244 & 6 & 30k & 29k & 48k & 145k & 54k & 173k \\
+zip-a-folder & 25 & 3 & 3k & 6k & 4k & 18k & 5k & 20k \\
+\midrule
+quill-delta & 395 & 36 & 74k & 102k & 104k & 328k & 178k & 333k \\
+complex.js & 393 & 52 & 48k & 155k & 130k & 368k & 130k & 367k \\
+pull-stream & 308 & 24 & 21k & 50k & 46k & 185k & 50k & 202k \\
+countries-and-timezones & 78 & 7 & 7k & 20k & 21k & 57k & 23k & 60k \\
+simple-statistics & 917 & 89 & 112k & 223k & 296k & 804k & 288k & 808k \\
+plural & 53 & 4 & 2k & 9k & 9k & 25k & 10k & 25k \\
+dirty & 89 & 34 & 30k & 50k & 138k & 298k & 167k & 342k \\
+geo-point & 76 & 19 & 18k & 41k & 45k & 150k & 47k & 159k \\
+uneval & 31 & 1 & 2k & 4k & 4k & 11k & 5k & 13k \\
+\midrule
+image-downloader & 32 & 1 & 2k & 2k & 2k & 10k & 4k & 17k \\
+crawler-url-parser & 100 & 3 & 11k & 12k & 16k & 52k & 17k & 59k \\
+gitlab-js & 205 & 37 & 27k & 80k & 234k & 328k & 106k & 330k \\
+core & 136 & 20 & 47k & 62k & 66k & 206k & 65k & 207k \\
+omnitool & 1603 & 270 & 270k & 667k & 627k & 1.846M & 627k & 1.885M \\
+\midrule
+\textbf{Total} & 5989 & 916 & 883k & 1.979M & 2.375M & 6.913M & 2.607M & 7.221M \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

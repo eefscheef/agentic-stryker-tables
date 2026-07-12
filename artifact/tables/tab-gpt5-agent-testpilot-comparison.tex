@@ -1,0 +1,19 @@
+%WARNING: auto-generated. Edit generate_gpt5_agent_testpilot_comparison_table.py instead.
+\begin{table}[H]
+\centering
+\caption{Comparison between GPT-5.4 TestPilot and the final GPT-5.4 agent. \emph{Mut.}\ is mutation score (mean/median over libraries); \emph{Cov.}\ is coverage (statement/branch); \emph{Tests} and \emph{LoC} are the passing test count and the lines of passing test code; \emph{In}/\emph{Cached}/\emph{Out} are token totals. \emph{Min/lib} is mean minutes per library.}
+\label{tab:gpt5-agent-testpilot-comparison}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+\textbf{System} & \textbf{Mut.} & \textbf{Cov.} & \textbf{Tests} & \textbf{LoC} & \textbf{In} & \textbf{Cached} & \textbf{Out} & \textbf{Cost} & \textbf{Min/lib} \\
+\midrule
+TestPilot-500 & 54.4\%/62.4\% & 79.9\%/68.7\% & 3,057 & 84.7k & 2.38M & 0 & 6.91M & \$72.09 & 24.7 \\
+TestPilot-1000 & 58.3\%/59.9\% & 84.9\%/74.3\% & 3,246 & 94.2k & 2.61M & 0 & 7.22M & \$75.47 & 29.2 \\
+Agent & 66.5\%/75.5\% & 78.6\%/71.3\% & 826 & 40.3k & 72.08M & 64.83M & 1.52M & \$32.34 & 35.7 \\
+\bottomrule
+\end{tabular}
+}
+\par\vspace{0.35em}
+{\footnotesize\raggedright \textit{Note.} All columns are computed over the 20-library set, excluding \texttt{fs-extra}: its TestPilot tests overfit to TestPilot's working directory (a validation artifact discussed in Section~\ref{sec:results:testpilot-validation-issues}), so its scores do not reflect genuine test quality.\par}
+\end{table}

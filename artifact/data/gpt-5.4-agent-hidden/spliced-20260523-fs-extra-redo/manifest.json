@@ -1,0 +1,40 @@
+{
+    "label": "hidden-mutation-feedback temperature-1 replicate 2 (of 2) at HEAD, fs-extra re-run splice",
+    "sourceRun": "agentic-stryker runs (hidden-21-*); fs-extra cell re-run and spliced in",
+    "suiteRunId": "0803b49e-cc2c-48b5-ad35-9c9e3376e9f5",
+    "agentGitSha": "63be77f97661975c07c4f2ee50ff3d872dc5d376",
+    "provider": "openai",
+    "model": "gpt-5.4",
+    "temperature": 1,
+    "temperatureNote": "implicit provider default (1.0) -- predates explicit temperature recording",
+    "conditionFlags": {
+        "mutationFeedback": "hidden",
+        "strykerDryRunRepair": "on",
+        "residualMutationFeedback": false,
+        "residualMutationMaxItems": 5,
+        "loopTelemetry": "summary"
+    },
+    "startedAt": "2026-05-24T01:38:48.583Z",
+    "endedAt": "2026-05-26T14:14:18.027Z",
+    "durationMs": 218129444,
+    "librarySet": "21 libraries (compatible set incl. fs-extra)",
+    "summary": {
+        "total": 21,
+        "completed": 20,
+        "partialBenchmark": 1,
+        "failedSetup": 0,
+        "failedBenchmark": 0,
+        "skipped": 0
+    },
+    "libraryNotes": {
+        "fs-extra": "cell re-run and spliced (the redo); note fs-extra is excluded from all thesis tables/figures as a validation artifact"
+    },
+    "provenance": {
+        "note": "Supersedes spliced-20260523/ (archived out of the dataset 2026-07-12). Manifest added 2026-07-12.",
+        "consumers": [
+            "generate_gpt5_agent_hidden_ablation_table.py (hidden CSV -> hidden-ablation figure)",
+            "generate_gpt5_correctness_failure_table.py",
+            "generate_gpt5_agent_nontriviality.py (hidden row)"
+        ]
+    }
+}

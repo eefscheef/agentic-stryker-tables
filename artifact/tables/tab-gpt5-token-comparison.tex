@@ -1,0 +1,42 @@
+%WARNING: auto-generated. Edit generate_gpt5_token_table.py instead.
+\begin{table*}[!htb]
+\centering
+\caption{Token usage comparison between GPT-5.4 TestPilot and the GPT-5.4 agent.
+  FUT is the number of exported functions under test.
+  All values are actual counts from the API.}
+\label{tab:gpt5-token-comparison}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l r r rr rr rr}
+\toprule
+& & & \multicolumn{2}{c}{\textbf{GPT-5.4-500}} & \multicolumn{2}{c}{\textbf{GPT-5.4-1000}} & \multicolumn{2}{c}{\textbf{GPT-5.4-agent}} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+\textbf{Project} & \textbf{LoC} & \textbf{FUT} & \textbf{Input} & \textbf{Output} & \textbf{Input} & \textbf{Output} & \textbf{Input} & \textbf{Output} \\
+\midrule
+glob & 314 & 21 & 42k & 139k & 59k & 177k & 245k & 4k \\
+graceful-fs & 208 & 187 & 308k & 1.129M & 340k & 1.273M & 249k & 7k \\
+jsonfile & 46 & 4 & 11k & 41k & 8k & 34k & 294k & 18k \\
+q & 736 & 98 & 224k & 773k & 426k & 738k & 443k & 5k \\
+node-dir & 244 & 6 & 48k & 145k & 54k & 173k & 261k & 9k \\
+zip-a-folder & 25 & 3 & 4k & 18k & 5k & 20k & 89k & 5k \\
+\midrule
+quill-delta & 395 & 36 & 104k & 328k & 178k & 333k & 425k & 11k \\
+complex.js & 393 & 52 & 130k & 368k & 130k & 367k & 384k & 4k \\
+pull-stream & 308 & 24 & 46k & 185k & 50k & 202k & 398k & 12k \\
+countries-and-timezones & 78 & 7 & 21k & 57k & 23k & 60k & 458k & 2k \\
+simple-statistics & 917 & 89 & 296k & 804k & 288k & 808k & 501k & 8k \\
+plural & 53 & 4 & 9k & 25k & 10k & 25k & 192k & 6k \\
+dirty & 89 & 34 & 138k & 298k & 167k & 342k & 404k & 8k \\
+geo-point & 76 & 19 & 45k & 150k & 47k & 159k & 245k & 6k \\
+uneval & 31 & 1 & 4k & 11k & 5k & 13k & 2.571M & 3k \\
+\midrule
+image-downloader & 32 & 1 & 2k & 10k & 4k & 17k & 160k & 6k \\
+crawler-url-parser & 100 & 3 & 16k & 52k & 17k & 59k & 399k & 8k \\
+gitlab-js & 205 & 37 & 234k & 328k & 106k & 330k & 307k & 7k \\
+core & 136 & 20 & 66k & 206k & 65k & 207k & 320k & 8k \\
+omnitool & 1603 & 270 & 627k & 1.846M & 627k & 1.885M & 621k & 14k \\
+\midrule
+\textbf{Total} & 5989 & 916 & 2.375M & 6.913M & 2.607M & 7.221M & 8.964M & 152k \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

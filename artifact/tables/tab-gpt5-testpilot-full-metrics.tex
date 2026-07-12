@@ -1,0 +1,40 @@
+%WARNING: auto-generated. Edit generate_gpt5_comparison_tables.py instead.
+\begin{table*}[!htb]
+\centering
+\caption{Statement, branch, and line coverage and mutation score per package for GPT-Turbo and the two GPT-5.4 \textsc{TestPilot} variants. These are the exact values used in Figure~\ref{fig:gpt5-testpilot-dumbbell}. GPT-Turbo values are medians over 10 runs, and each GPT-5.4 value is from a single run. Rows are grouped by the original categories: Nessie packages, extra GitHub packages, and GitLab packages.}
+\label{tab:gpt5-testpilot-full-metrics}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l rrrr rrrr rrrr}
+\toprule
+\multirow{2}{*}{\textbf{Project}} & \multicolumn{4}{c}{\textbf{GPT-Turbo}} & \multicolumn{4}{c}{\textbf{GPT-5.4-500}} & \multicolumn{4}{c}{\textbf{GPT-5.4-1000}} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(lr){10-13}
+ & \textbf{Stmt} & \textbf{Br} & \textbf{Line} & \textbf{Mut} & \textbf{Stmt} & \textbf{Br} & \textbf{Line} & \textbf{Mut} & \textbf{Stmt} & \textbf{Br} & \textbf{Line} & \textbf{Mut} \\
+\midrule
+glob & 71.3 & 66.3 & 76.1 & 22.4 & 62.8 & 51.4 & 66.6 & 33.9 & 76.0 & 67.5 & 80.9 & 44.4 \\
+graceful-fs & 49.3 & 33.3 & 50.5 & 59.7 & 56.7 & 41.7 & 57.7 & 26.7 & 54.8 & 40.9 & 55.8 & 27.0 \\
+jsonfile & 38.3 & 29.4 & 39.1 & 13.1 & 85.1 & 73.5 & 84.8 & 68.9 & 76.6 & 70.6 & 76.1 & 55.7 \\
+q & 70.4 & 53.7 & 70.9 & 38.7 & 80.5 & 63.5 & 80.7 & 55.3 & 80.6 & 63.1 & 80.8 & 54.4 \\
+node-dir & 64.3 & 50.8 & 72.5 & 26.6 & 78.9 & 67.3 & 86.9 & 60.9 & 82.7 & 73.5 & 90.2 & 67.1 \\
+zip-a-folder & 84.0 & 50.0 & 84.0 & 8.3 & 100.0 & 100.0 & 100.0 & 95.8 & 100.0 & 100.0 & 100.0 & 95.8 \\
+\midrule
+quill-delta & 73.0 & 64.3 & 72.9 & 45.8 & 88.9 & 83.6 & 88.9 & 76.9 & 91.4 & 86.4 & 91.4 & 78.3 \\
+complex.js & 70.2 & 46.5 & 70.3 & 34.6 & 86.0 & 66.9 & 86.0 & 63.9 & 84.5 & 66.2 & 84.5 & 61.1 \\
+pull-stream & 69.1 & 52.8 & 72.4 & 45.6 & 86.0 & 71.5 & 88.3 & 69.8 & 88.9 & 74.3 & 89.9 & 73.4 \\
+countries-and-timezones & 93.1 & 69.1 & 100.0 & 5.2 & 99.0 & 85.1 & 100.0 & 16.4 & 99.0 & 87.2 & 100.0 & 16.6 \\
+simple-statistics & 87.8 & 71.3 & 87.5 & 47.0 & 90.3 & 87.9 & 90.2 & 76.6 & 91.7 & 88.2 & 91.6 & 76.7 \\
+plural & 73.8 & 59.1 & 90.6 & 22.5 & 78.5 & 68.2 & 92.5 & 26.4 & 81.5 & 77.3 & 94.3 & 34.3 \\
+dirty & 74.5 & 65.4 & 79.8 & 41.8 & 85.8 & 78.8 & 87.6 & 69.4 & 84.9 & 76.9 & 87.6 & 69.4 \\
+geo-point & 87.8 & 70.6 & 86.8 & 56.5 & 96.3 & 88.2 & 96.0 & 74.4 & 100.0 & 97.0 & 100.0 & 80.5 \\
+uneval & 68.8 & 58.3 & 71.0 & 54.2 & 100.0 & 95.8 & 100.0 & 89.8 & 100.0 & 95.8 & 100.0 & 89.8 \\
+\midrule
+image-downloader & 63.6 & 50.0 & 62.5 & 10.0 & 0.0 & 0.0 & 0.0 & 0.0 & 75.8 & 62.5 & 75.0 & 51.2 \\
+crawler-url-parser & 51.4 & 35.0 & 54.0 & 22.1 & 94.6 & 81.2 & 96.0 & 64.2 & 94.6 & 85.0 & 96.0 & 68.6 \\
+gitlab-js & 51.7 & 16.5 & 51.9 & 7.8 & 59.6 & 22.5 & 60.5 & 9.5 & 59.6 & 20.8 & 60.5 & 4.7 \\
+core & 78.3 & 50.0 & 77.2 & 35.0 & 88.1 & 72.7 & 88.2 & 51.5 & 91.6 & 76.1 & 91.2 & 58.4 \\
+omnitool & 74.2 & 55.2 & 73.9 & 50.7 & 81.6 & 73.1 & 82.5 & 57.1 & 83.0 & 76.2 & 84.0 & 58.7 \\
+\midrule
+\textbf{Median} & 70.8 & 53.2 & 72.7 & 34.8 & 85.9 & 72.9 & 87.9 & 62.4 & 84.7 & 76.2 & 90.0 & 59.9 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

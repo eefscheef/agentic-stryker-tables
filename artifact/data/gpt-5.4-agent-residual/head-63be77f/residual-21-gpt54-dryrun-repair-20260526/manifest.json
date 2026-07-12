@@ -1,0 +1,45 @@
+{
+    "label": "full+residual temperature-1 replicate 1 (of 2) at HEAD, dry-run repair on",
+    "sourceRun": "agentic-stryker/runs/full/residual-21-gpt54-dryrun-repair-20260526",
+    "suiteRunId": "0c84fd9e-bd23-4942-9a4a-6110cce4d37e",
+    "agentGitSha": "63be77f97661975c07c4f2ee50ff3d872dc5d376",
+    "provider": "openai",
+    "model": "gpt-5.4",
+    "temperature": 1,
+    "temperatureNote": "implicit provider default (1.0) -- this run predates explicit temperature recording; the CLI had no --temperature flag",
+    "conditionFlags": {
+        "mutationFeedback": "full",
+        "strykerDryRunRepair": "on",
+        "residualMutationFeedback": true,
+        "residualMutationMaxItems": 5,
+        "loopTelemetry": "summary"
+    },
+    "startedAt": "2026-05-26T20:48:28.046Z",
+    "endedAt": "2026-05-27T11:43:58.233Z",
+    "durationMs": 53730187,
+    "librarySet": "default suite (25 attempted, 4 hard-skipped: bluebird, js-sdsl, memfs, rsvp)",
+    "summary": {
+        "total": 25,
+        "completed": 18,
+        "partialBenchmark": 3,
+        "failedSetup": 0,
+        "failedBenchmark": 0,
+        "skipped": 4
+    },
+    "libraryNotes": {
+        "crawler-url-parser": "no tests retained: all three API items closed by skip verdict / runTests early-stop rule; scored 0.0% under the no-test rule",
+        "uneval": "no passing tests (single API item failed); scored 0.0%",
+        "graceful-fs": "agent-side Stryker score exists, but one flaky test failed benchmark validation so the external benchmark score is missing; this run is dropped from the graceful-fs cell (single-run value from replicate 2, marked *)"
+    },
+    "provenance": {
+        "note": "Copied from the agentic-stryker checkout; path fields in suite-report.json use the ${RUN_ROOT} placeholder. Manifest added 2026-07-12 (schema follows the temp-0 run's manifest).",
+        "consumers": [
+            "generate_gpt5_agent_temperature_table.py (temperature-1 mean; residual-scores table + temperature CSV)",
+            "generate_gpt5_agent_testpilot_comparison_table.py (agent columns)",
+            "generate_gpt5_agent_residual_table.py (cost table)",
+            "generate_gpt5_correctness_failure_table.py",
+            "generate_gpt5_agent_nontriviality.py",
+            "generate_gpt5_agent_hidden_ablation_table.py (full-feedback side)"
+        ]
+    }
+}

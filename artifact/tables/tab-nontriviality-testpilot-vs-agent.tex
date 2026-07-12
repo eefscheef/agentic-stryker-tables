@@ -1,0 +1,31 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{6pt}
+\caption{Non-triviality of generated tests. \emph{Pass} is the share of
+generated tests that pass. \emph{NT}\textsuperscript{*} is the percentage of
+all generated tests that contain a non-trivial assertion, and
+\emph{NT}\textsuperscript{*}~(pass.)\ the same percentage but for passing
+tests only. \textsc{TestPilot} and GPT-Turbo use the original criterion,
+while agent rows use the agent-compatible metric.}
+\label{tab:nontriviality}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Generator (condition) & Runs & Tests & Pass & NT\textsuperscript{*} & NT\textsuperscript{*}~(pass.) \\
+\midrule
+GPT-Turbo (original) & 10 & 4{,}984 & 42.3\% & 71.2\% & 67.8\% \\
+\textsc{TestPilot}-500 & 1 & 8{,}872 & 34.5\% & 92.3\% & 97.2\% \\
+\textsc{TestPilot}-1000 & 1 & 9{,}357 & 34.7\% & 92.7\% & 97.4\% \\
+\midrule
+Agent, full+residual ($T{=}1$) & 2 & 827 & 99.9\% & 99.1\% & 99.1\% \\
+Agent, hidden ($T{=}1$) & 2 & 821 & 99.9\% & 99.6\% & 99.6\% \\
+Agent, full+residual ($T{=}0$) & 1 & 848 & 100.0\% & 98.1\% & 98.1\% \\
+\bottomrule
+\end{tabular}
+
+\smallskip
+{\footnotesize\raggedright \textsuperscript{*}Re-scoring the \textsc{TestPilot}/GPT-Turbo suites
+under the agent-compatible criterion does not change their non-triviality score
+($\le$0.02\,pp; zero affected files for GPT-5.4), so the difference does not give
+either system an advantage.\par}
+\end{table}

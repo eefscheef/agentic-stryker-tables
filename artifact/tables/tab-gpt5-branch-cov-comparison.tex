@@ -1,0 +1,41 @@
+%WARNING: auto-generated. Edit generate_gpt5_comparison_tables.py instead.
+\begin{table*}[!htb]
+\centering
+\caption{Branch coverage comparison between GPT-Turbo and the two GPT-5.4 \textsc{TestPilot} variants. GPT-Turbo values are medians across 10 runs, while GPT-5.4 values are from a single run. $\Delta$ reports the absolute per-project difference in percentage points relative to GPT-Turbo. Row groups follow the original benchmark grouping: Nessie packages, additional GitHub packages, and GitLab packages.}
+\label{tab:gpt5-branch-cov-comparison}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lrrrrr}
+\toprule
+\multirow{2}{*}{\textbf{Project}} & \multirow{2}{*}{\textbf{GPT-Turbo}} & \multicolumn{2}{c}{\textbf{GPT-5.4-500}} & \multicolumn{2}{c}{\textbf{GPT-5.4-1000}} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+ & & \textbf{Score} & \textbf{$\Delta$ (pp)} & \textbf{Score} & \textbf{$\Delta$ (pp)} \\
+\midrule
+glob & 66.3\% & 51.4\% & -14.9 & 67.5\% & \textbf{+1.2} \\
+graceful-fs & 33.3\% & 41.7\% & \textbf{+8.3} & 40.9\% & \textbf{+7.6} \\
+jsonfile & 29.4\% & 73.5\% & \textbf{+44.1} & 70.6\% & \textbf{+41.2} \\
+q & 53.7\% & 63.5\% & \textbf{+9.8} & 63.1\% & \textbf{+9.5} \\
+node-dir & 50.8\% & 67.3\% & \textbf{+16.5} & 73.5\% & \textbf{+22.7} \\
+zip-a-folder & 50.0\% & 100.0\% & \textbf{+50.0} & 100.0\% & \textbf{+50.0} \\
+\midrule
+quill-delta & 64.3\% & 83.6\% & \textbf{+19.2} & 86.4\% & \textbf{+22.1} \\
+complex.js & 46.5\% & 66.9\% & \textbf{+20.3} & 66.2\% & \textbf{+19.7} \\
+pull-stream & 52.8\% & 71.5\% & \textbf{+18.7} & 74.3\% & \textbf{+21.5} \\
+countries-and-timezones & 69.1\% & 85.1\% & \textbf{+16.0} & 87.2\% & \textbf{+18.1} \\
+simple-statistics & 71.3\% & 87.9\% & \textbf{+16.6} & 88.2\% & \textbf{+16.9} \\
+plural & 59.1\% & 68.2\% & \textbf{+9.1} & 77.3\% & \textbf{+18.2} \\
+dirty & 65.4\% & 78.8\% & \textbf{+13.5} & 76.9\% & \textbf{+11.5} \\
+geo-point & 70.6\% & 88.2\% & \textbf{+17.7} & 97.0\% & \textbf{+26.5} \\
+uneval & 58.3\% & 95.8\% & \textbf{+37.5} & 95.8\% & \textbf{+37.5} \\
+\midrule
+image-downloader & 50.0\% & 0.0\% & -50.0 & 62.5\% & \textbf{+12.5} \\
+crawler-url-parser & 35.0\% & 81.2\% & \textbf{+46.2} & 85.0\% & \textbf{+50.0} \\
+gitlab-js & 16.5\% & 22.5\% & \textbf{+6.1} & 20.8\% & \textbf{+4.3} \\
+core & 50.0\% & 72.7\% & \textbf{+22.7} & 76.1\% & \textbf{+26.1} \\
+omnitool & 55.2\% & 73.1\% & \textbf{+17.9} & 76.2\% & \textbf{+21.0} \\
+\midrule
+\textbf{Median score} & 53.2\% & 72.9\% & -- & 76.2\% & -- \\
+\textbf{Median $\Delta$} & -- & -- & \textbf{+17.1} & -- & \textbf{+20.3} \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

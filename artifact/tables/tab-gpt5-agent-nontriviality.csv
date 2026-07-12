@@ -1,0 +1,106 @@
+run_id,run_label,condition,temperature,library,package_name,status,tests_total,tests_passing,tests_failing,tests_other,nontrivial_tests_strict,nontrivial_passes_strict,nontrivial_test_rate_strict,nontrivial_pass_rate_strict,nontrivial_tests_agent,nontrivial_passes_agent,nontrivial_test_rate_agent,nontrivial_pass_rate_agent,report_path
+H1,Hidden T1 H1,hidden,1,complex.js,complex.js,completed,97,97,0,0,0,0,0.0,0.0,97,97,100.0,100.0,data/gpt-5.4-agent-hidden/1/complex.js/report/report.json
+H1,Hidden T1 H1,hidden,1,core,@spacl/core,completed,20,20,0,0,0,0,0.0,0.0,20,20,100.0,100.0,data/gpt-5.4-agent-hidden/1/core/report/report.json
+H1,Hidden T1 H1,hidden,1,countries-and-timezones,countries-and-timezones,completed,5,5,0,0,0,0,0.0,0.0,5,5,100.0,100.0,data/gpt-5.4-agent-hidden/1/countries-and-timezones/report/report.json
+H1,Hidden T1 H1,hidden,1,crawler-url-parser,crawler-url-parser,completed,2,2,0,0,0,0,0.0,0.0,2,2,100.0,100.0,data/gpt-5.4-agent-hidden/1/crawler-url-parser/report/report.json
+H1,Hidden T1 H1,hidden,1,dirty,dirty,completed,9,9,0,0,0,0,0.0,0.0,9,9,100.0,100.0,data/gpt-5.4-agent-hidden/1/dirty/report/report.json
+H1,Hidden T1 H1,hidden,1,fs-extra,fs-extra,completed,133,133,0,0,0,0,0.0,0.0,133,133,100.0,100.0,data/gpt-5.4-agent-hidden/1/fs-extra/report/report.json
+H1,Hidden T1 H1,hidden,1,geo-point,geo-point,completed,19,19,0,0,0,0,0.0,0.0,19,19,100.0,100.0,data/gpt-5.4-agent-hidden/1/geo-point/report/report.json
+H1,Hidden T1 H1,hidden,1,gitlab-js,@nerdvision/gitlab-js,completed,25,25,0,0,0,0,0.0,0.0,25,25,100.0,100.0,data/gpt-5.4-agent-hidden/1/gitlab-js/report/report.json
+H1,Hidden T1 H1,hidden,1,glob,glob,completed,7,7,0,0,0,0,0.0,0.0,7,7,100.0,100.0,data/gpt-5.4-agent-hidden/1/glob/report/report.json
+H1,Hidden T1 H1,hidden,1,graceful-fs,graceful-fs,completed,134,134,0,0,0,0,0.0,0.0,134,134,100.0,100.0,data/gpt-5.4-agent-hidden/1/graceful-fs/report/report.json
+H1,Hidden T1 H1,hidden,1,image-downloader,image-downloader,completed,1,1,0,0,0,0,0.0,0.0,1,1,100.0,100.0,data/gpt-5.4-agent-hidden/1/image-downloader/report/report.json
+H1,Hidden T1 H1,hidden,1,jsonfile,jsonfile,completed,4,4,0,0,0,0,0.0,0.0,4,4,100.0,100.0,data/gpt-5.4-agent-hidden/1/jsonfile/report/report.json
+H1,Hidden T1 H1,hidden,1,node-dir,node-dir,completed,6,6,0,0,0,0,0.0,0.0,6,6,100.0,100.0,data/gpt-5.4-agent-hidden/1/node-dir/report/report.json
+H1,Hidden T1 H1,hidden,1,omnitool,omnitool,completed,255,255,0,0,0,0,0.0,0.0,255,255,100.0,100.0,data/gpt-5.4-agent-hidden/1/omnitool/report/report.json
+H1,Hidden T1 H1,hidden,1,plural,plural,completed,4,4,0,0,0,0,0.0,0.0,4,4,100.0,100.0,data/gpt-5.4-agent-hidden/1/plural/report/report.json
+H1,Hidden T1 H1,hidden,1,pull-stream,pull-stream,completed,20,20,0,0,0,0,0.0,0.0,20,20,100.0,100.0,data/gpt-5.4-agent-hidden/1/pull-stream/report/report.json
+H1,Hidden T1 H1,hidden,1,q,q,completed,94,94,0,0,0,0,0.0,0.0,94,94,100.0,100.0,data/gpt-5.4-agent-hidden/1/q/report/report.json
+H1,Hidden T1 H1,hidden,1,quill-delta,quill-delta,completed,32,32,0,0,0,0,0.0,0.0,32,32,100.0,100.0,data/gpt-5.4-agent-hidden/1/quill-delta/report/report.json
+H1,Hidden T1 H1,hidden,1,simple-statistics,simple-statistics,completed,77,77,0,0,0,0,0.0,0.0,77,77,100.0,100.0,data/gpt-5.4-agent-hidden/1/simple-statistics/report/report.json
+H1,Hidden T1 H1,hidden,1,uneval,uneval,completed,1,1,0,0,0,0,0.0,0.0,1,1,100.0,100.0,data/gpt-5.4-agent-hidden/1/uneval/report/report.json
+H1,Hidden T1 H1,hidden,1,zip-a-folder,zip-a-folder,completed,3,3,0,0,0,0,0.0,0.0,3,3,100.0,100.0,data/gpt-5.4-agent-hidden/1/zip-a-folder/report/report.json
+H2,Hidden T1 H2,hidden,1,complex.js,complex.js,completed,99,99,0,0,0,0,0.0,0.0,96,96,96.96969696969697,96.96969696969697,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/complex.js/report/report.json
+H2,Hidden T1 H2,hidden,1,core,@spacl/core,completed,18,18,0,0,0,0,0.0,0.0,18,18,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/core/report/report.json
+H2,Hidden T1 H2,hidden,1,countries-and-timezones,countries-and-timezones,completed,7,7,0,0,0,0,0.0,0.0,7,7,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/countries-and-timezones/report/report.json
+H2,Hidden T1 H2,hidden,1,crawler-url-parser,crawler-url-parser,completed,2,2,0,0,0,0,0.0,0.0,2,2,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/crawler-url-parser/report/report.json
+H2,Hidden T1 H2,hidden,1,dirty,dirty,completed,8,8,0,0,0,0,0.0,0.0,8,8,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/dirty/report/report.json
+H2,Hidden T1 H2,hidden,1,fs-extra,fs-extra,completed,99,99,0,0,0,0,0.0,0.0,99,99,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/fs-extra/report/report.json
+H2,Hidden T1 H2,hidden,1,geo-point,geo-point,completed,18,18,0,0,0,0,0.0,0.0,18,18,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/geo-point/report/report.json
+H2,Hidden T1 H2,hidden,1,gitlab-js,@nerdvision/gitlab-js,completed,30,30,0,0,0,0,0.0,0.0,30,30,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/gitlab-js/report/report.json
+H2,Hidden T1 H2,hidden,1,glob,glob,completed,7,7,0,0,0,0,0.0,0.0,7,7,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/glob/report/report.json
+H2,Hidden T1 H2,hidden,1,graceful-fs,graceful-fs,completed,138,138,0,0,0,0,0.0,0.0,137,137,99.27536231884058,99.27536231884058,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/graceful-fs/report/report.json
+H2,Hidden T1 H2,hidden,1,image-downloader,image-downloader,completed,1,1,0,0,0,0,0.0,0.0,0,0,0.0,0.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/image-downloader/report/report.json
+H2,Hidden T1 H2,hidden,1,jsonfile,jsonfile,completed,4,4,0,0,0,0,0.0,0.0,4,4,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/jsonfile/report/report.json
+H2,Hidden T1 H2,hidden,1,node-dir,node-dir,completed,5,5,0,0,0,0,0.0,0.0,5,5,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/node-dir/report/report.json
+H2,Hidden T1 H2,hidden,1,omnitool,omnitool,completed,256,256,0,0,0,0,0.0,0.0,256,256,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/omnitool/report/report.json
+H2,Hidden T1 H2,hidden,1,plural,plural,partial_benchmark,2,1,1,0,0,0,0.0,0.0,2,1,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/plural/report/report.json
+H2,Hidden T1 H2,hidden,1,pull-stream,pull-stream,completed,23,23,0,0,0,0,0.0,0.0,23,23,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/pull-stream/report/report.json
+H2,Hidden T1 H2,hidden,1,q,q,completed,94,94,0,0,0,0,0.0,0.0,94,94,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/q/report/report.json
+H2,Hidden T1 H2,hidden,1,quill-delta,quill-delta,completed,32,32,0,0,0,0,0.0,0.0,32,32,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/quill-delta/report/report.json
+H2,Hidden T1 H2,hidden,1,simple-statistics,simple-statistics,completed,79,79,0,0,0,0,0.0,0.0,78,78,98.73417721518987,98.73417721518987,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/simple-statistics/report/report.json
+H2,Hidden T1 H2,hidden,1,uneval,uneval,completed,1,1,0,0,0,0,0.0,0.0,1,1,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/uneval/report/report.json
+H2,Hidden T1 H2,hidden,1,zip-a-folder,zip-a-folder,completed,2,2,0,0,0,0,0.0,0.0,2,2,100.0,100.0,data/gpt-5.4-agent-hidden/spliced-20260523-fs-extra-redo/zip-a-folder/report/report.json
+R3,Full T1 R3,full+residual,1,complex.js,complex.js,completed,89,89,0,0,0,0,0.0,0.0,79,79,88.76404494382022,88.76404494382022,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/complex.js/report/report.json
+R3,Full T1 R3,full+residual,1,core,@spacl/core,completed,22,22,0,0,0,0,0.0,0.0,22,22,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/core/report/report.json
+R3,Full T1 R3,full+residual,1,countries-and-timezones,countries-and-timezones,completed,8,8,0,0,0,0,0.0,0.0,8,8,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/countries-and-timezones/report/report.json
+R3,Full T1 R3,full+residual,1,crawler-url-parser,crawler-url-parser,partial_benchmark,0,0,0,0,0,0,,,0,0,,,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/crawler-url-parser/report/report.json
+R3,Full T1 R3,full+residual,1,dirty,dirty,completed,9,9,0,0,0,0,0.0,0.0,9,9,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/dirty/report/report.json
+R3,Full T1 R3,full+residual,1,fs-extra,fs-extra,completed,136,136,0,0,0,0,0.0,0.0,135,135,99.26470588235294,99.26470588235294,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/fs-extra/report/report.json
+R3,Full T1 R3,full+residual,1,geo-point,geo-point,completed,20,20,0,0,0,0,0.0,0.0,20,20,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/geo-point/report/report.json
+R3,Full T1 R3,full+residual,1,gitlab-js,@nerdvision/gitlab-js,completed,22,22,0,0,0,0,0.0,0.0,22,22,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/gitlab-js/report/report.json
+R3,Full T1 R3,full+residual,1,glob,glob,completed,12,12,0,0,0,0,0.0,0.0,12,12,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/glob/report/report.json
+R3,Full T1 R3,full+residual,1,graceful-fs,graceful-fs,partial_benchmark,137,136,1,0,0,0,0.0,0.0,135,134,98.54014598540147,98.52941176470588,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/graceful-fs/report/report.json
+R3,Full T1 R3,full+residual,1,image-downloader,image-downloader,completed,3,3,0,0,0,0,0.0,0.0,3,3,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/image-downloader/report/report.json
+R3,Full T1 R3,full+residual,1,jsonfile,jsonfile,completed,8,8,0,0,0,0,0.0,0.0,8,8,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/jsonfile/report/report.json
+R3,Full T1 R3,full+residual,1,node-dir,node-dir,completed,8,8,0,0,0,0,0.0,0.0,8,8,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/node-dir/report/report.json
+R3,Full T1 R3,full+residual,1,omnitool,omnitool,completed,250,250,0,0,0,0,0.0,0.0,250,250,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/omnitool/report/report.json
+R3,Full T1 R3,full+residual,1,plural,plural,completed,6,6,0,0,0,0,0.0,0.0,6,6,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/plural/report/report.json
+R3,Full T1 R3,full+residual,1,pull-stream,pull-stream,completed,23,23,0,0,0,0,0.0,0.0,23,23,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/pull-stream/report/report.json
+R3,Full T1 R3,full+residual,1,q,q,completed,94,94,0,0,0,0,0.0,0.0,94,94,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/q/report/report.json
+R3,Full T1 R3,full+residual,1,quill-delta,quill-delta,completed,32,32,0,0,0,0,0.0,0.0,32,32,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/quill-delta/report/report.json
+R3,Full T1 R3,full+residual,1,simple-statistics,simple-statistics,completed,80,80,0,0,0,0,0.0,0.0,80,80,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/simple-statistics/report/report.json
+R3,Full T1 R3,full+residual,1,uneval,uneval,partial_benchmark,0,0,0,0,0,0,,,0,0,,,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/uneval/report/report.json
+R3,Full T1 R3,full+residual,1,zip-a-folder,zip-a-folder,completed,3,3,0,0,0,0,0.0,0.0,3,3,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-dryrun-repair-20260526/zip-a-folder/report/report.json
+R4,Full T1 R4,full+residual,1,complex.js,complex.js,completed,99,99,0,0,0,0,0.0,0.0,99,99,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/complex.js/report/report.json
+R4,Full T1 R4,full+residual,1,core,@spacl/core,completed,24,24,0,0,0,0,0.0,0.0,24,24,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/core/report/report.json
+R4,Full T1 R4,full+residual,1,countries-and-timezones,countries-and-timezones,completed,9,9,0,0,0,0,0.0,0.0,9,9,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/countries-and-timezones/report/report.json
+R4,Full T1 R4,full+residual,1,crawler-url-parser,crawler-url-parser,completed,4,4,0,0,0,0,0.0,0.0,4,4,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/crawler-url-parser/report/report.json
+R4,Full T1 R4,full+residual,1,dirty,dirty,completed,7,7,0,0,0,0,0.0,0.0,7,7,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/dirty/report/report.json
+R4,Full T1 R4,full+residual,1,fs-extra,fs-extra,completed,67,67,0,0,0,0,0.0,0.0,67,67,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/fs-extra/report/report.json
+R4,Full T1 R4,full+residual,1,geo-point,geo-point,completed,18,18,0,0,0,0,0.0,0.0,18,18,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/geo-point/report/report.json
+R4,Full T1 R4,full+residual,1,gitlab-js,@nerdvision/gitlab-js,completed,23,23,0,0,0,0,0.0,0.0,21,21,91.30434782608695,91.30434782608695,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/gitlab-js/report/report.json
+R4,Full T1 R4,full+residual,1,glob,glob,completed,9,9,0,0,0,0,0.0,0.0,9,9,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/glob/report/report.json
+R4,Full T1 R4,full+residual,1,graceful-fs,graceful-fs,completed,126,126,0,0,0,0,0.0,0.0,126,126,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/graceful-fs/report/report.json
+R4,Full T1 R4,full+residual,1,image-downloader,image-downloader,completed,4,4,0,0,0,0,0.0,0.0,4,4,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/image-downloader/report/report.json
+R4,Full T1 R4,full+residual,1,jsonfile,jsonfile,completed,7,7,0,0,0,0,0.0,0.0,7,7,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/jsonfile/report/report.json
+R4,Full T1 R4,full+residual,1,node-dir,node-dir,completed,9,9,0,0,0,0,0.0,0.0,9,9,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/node-dir/report/report.json
+R4,Full T1 R4,full+residual,1,omnitool,omnitool,completed,249,249,0,0,0,0,0.0,0.0,249,249,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/omnitool/report/report.json
+R4,Full T1 R4,full+residual,1,plural,plural,completed,9,9,0,0,0,0,0.0,0.0,8,8,88.88888888888889,88.88888888888889,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/plural/report/report.json
+R4,Full T1 R4,full+residual,1,pull-stream,pull-stream,completed,25,25,0,0,0,0,0.0,0.0,25,25,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/pull-stream/report/report.json
+R4,Full T1 R4,full+residual,1,q,q,completed,96,96,0,0,0,0,0.0,0.0,96,96,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/q/report/report.json
+R4,Full T1 R4,full+residual,1,quill-delta,quill-delta,completed,33,33,0,0,0,0,0.0,0.0,33,33,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/quill-delta/report/report.json
+R4,Full T1 R4,full+residual,1,simple-statistics,simple-statistics,completed,75,75,0,0,0,0,0.0,0.0,75,75,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/simple-statistics/report/report.json
+R4,Full T1 R4,full+residual,1,uneval,uneval,partial_benchmark,0,0,0,0,0,0,,,0,0,,,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/uneval/report/report.json
+R4,Full T1 R4,full+residual,1,zip-a-folder,zip-a-folder,completed,2,2,0,0,0,0,0.0,0.0,2,2,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-21-gpt54-temp1-rep2-20260530/zip-a-folder/report/report.json
+T0,Full T0,full+residual,0,complex.js,complex.js,completed,102,102,0,0,0,0,0.0,0.0,92,92,90.19607843137256,90.19607843137256,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/complex.js/report/report.json
+T0,Full T0,full+residual,0,core,@spacl/core,completed,24,24,0,0,0,0,0.0,0.0,24,24,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/core/report/report.json
+T0,Full T0,full+residual,0,countries-and-timezones,countries-and-timezones,completed,12,12,0,0,0,0,0.0,0.0,12,12,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/countries-and-timezones/report/report.json
+T0,Full T0,full+residual,0,crawler-url-parser,crawler-url-parser,completed,2,2,0,0,0,0,0.0,0.0,2,2,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/crawler-url-parser/report/report.json
+T0,Full T0,full+residual,0,dirty,dirty,completed,7,7,0,0,0,0,0.0,0.0,7,7,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/dirty/report/report.json
+T0,Full T0,full+residual,0,fs-extra,fs-extra,completed,132,132,0,0,0,0,0.0,0.0,130,130,98.48484848484848,98.48484848484848,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/fs-extra/report/report.json
+T0,Full T0,full+residual,0,geo-point,geo-point,completed,22,22,0,0,0,0,0.0,0.0,20,20,90.9090909090909,90.9090909090909,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/geo-point/report/report.json
+T0,Full T0,full+residual,0,gitlab-js,@nerdvision/gitlab-js,completed,27,27,0,0,0,0,0.0,0.0,25,25,92.5925925925926,92.5925925925926,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/gitlab-js/report/report.json
+T0,Full T0,full+residual,0,glob,glob,completed,11,11,0,0,0,0,0.0,0.0,11,11,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/glob/report/report.json
+T0,Full T0,full+residual,0,graceful-fs,graceful-fs,completed,131,131,0,0,0,0,0.0,0.0,131,131,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/graceful-fs/report/report.json
+T0,Full T0,full+residual,0,image-downloader,image-downloader,completed,3,3,0,0,0,0,0.0,0.0,2,2,66.66666666666667,66.66666666666667,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/image-downloader/report/report.json
+T0,Full T0,full+residual,0,jsonfile,jsonfile,completed,7,7,0,0,0,0,0.0,0.0,7,7,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/jsonfile/report/report.json
+T0,Full T0,full+residual,0,node-dir,node-dir,completed,8,8,0,0,0,0,0.0,0.0,8,8,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/node-dir/report/report.json
+T0,Full T0,full+residual,0,omnitool,omnitool,completed,250,250,0,0,0,0,0.0,0.0,250,250,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/omnitool/report/report.json
+T0,Full T0,full+residual,0,plural,plural,completed,6,6,0,0,0,0,0.0,0.0,5,5,83.33333333333333,83.33333333333333,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/plural/report/report.json
+T0,Full T0,full+residual,0,pull-stream,pull-stream,completed,21,21,0,0,0,0,0.0,0.0,21,21,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/pull-stream/report/report.json
+T0,Full T0,full+residual,0,q,q,completed,97,97,0,0,0,0,0.0,0.0,97,97,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/q/report/report.json
+T0,Full T0,full+residual,0,quill-delta,quill-delta,completed,33,33,0,0,0,0,0.0,0.0,33,33,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/quill-delta/report/report.json
+T0,Full T0,full+residual,0,simple-statistics,simple-statistics,completed,81,81,0,0,0,0,0.0,0.0,81,81,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/simple-statistics/report/report.json
+T0,Full T0,full+residual,0,uneval,uneval,completed,1,1,0,0,0,0,0.0,0.0,1,1,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/uneval/report/report.json
+T0,Full T0,full+residual,0,zip-a-folder,zip-a-folder,completed,3,3,0,0,0,0,0.0,0.0,3,3,100.0,100.0,data/gpt-5.4-agent-residual/head-63be77f/residual-full-gpt54-temp0-20260530/zip-a-folder/report/report.json
